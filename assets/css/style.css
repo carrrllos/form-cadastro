@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main{
+    background-color: #6dc152;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section{
+    height: 50vh;
+    width: 25vw;
+    background-color: #fff;
+    display: none;
+    text-align: center;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.53);
+    border-radius: 10px;
+    
+    
+}
+input{
+    outline: 0;
+    background-color: #f2f2f2;
+    border: 0;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+input:focus{
+    border: #00b241 1px solid;
+    
+}
+.btn-register{
+    background-color: #00b241;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.btn-login{
+    background-color: #00b241;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+p{
+    font-size: 13px;
+    color: #b3b3b3;
+}
+.register-section{
+    height: 60vh;
+    width: 25vw;
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.53);
+    border-radius: 10px;
+    
+}
+
+.senha{
+    position: relative;
+}
+.img-senha1{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+.img-senha2{
+    position: absolute;
+    top: 85px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.img-login{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
