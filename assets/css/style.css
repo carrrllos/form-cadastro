@@ -112,4 +112,24 @@ p{
     cursor: pointer;
 }
 
+@media screen and (max-width:1100px) {
+    
+    .login-section{
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    
+    .login-section{
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width:900px) {
+    
+    .login-section{
+        width: 50vw;
+    }    
+}    
 
