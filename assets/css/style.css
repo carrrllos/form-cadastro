@@ -117,6 +117,9 @@ p{
     .login-section{
         width: 35vw;
     }
+    .register-section{
+        width: 35vw;
+    }
 }
 
 @media screen and (max-width:1000px) {
@@ -124,11 +127,17 @@ p{
     .login-section{
         width: 45vw;
     }
+    .register-section{
+        width: 45vw;
+    }
 }
 
 @media screen and (max-width:900px) {
     
     .login-section{
+        width: 50vw;
+    }    
+    .register-section{
         width: 50vw;
     }    
 }    
