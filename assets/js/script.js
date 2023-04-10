@@ -1,11 +1,7 @@
-
-
 const loginLink = document.getElementById("login-link")
 const registerLink = document.getElementById("register-link")
 let passwordRegister1 = document.getElementById("password-register1")
 let passwordRegister2 = document.getElementById("password-register2")
-
-
 
 
 
@@ -43,8 +39,6 @@ function verSenhaLogin() {
 
 function verSenhaRegister() {
 
-
-
     if (passwordRegister1.getAttribute('type') == "password") {
         passwordRegister1.setAttribute('type', 'text');
         passwordRegister2.setAttribute('type', 'text');
@@ -56,30 +50,5 @@ function verSenhaRegister() {
 }
 
 
-function registrar() {
-    let passwordRegister1Value = document.getElementById("password-register1").value
-    let passwordRegister2Value = document.getElementById("password-register2").value
-
-    
-    if (passwordRegister1Value != passwordRegister2Value) {
-        alert("senhas diferentes")
-    }
-    else if (passwordRegister1Value.length == 0 || passwordRegister2Value.length == 0) {
-        alert("digite uma senha")
-    }
-
-    else {
-        var hashPassword = 0;
-
-        if (passwordRegister1Value.length == 0) return hashPassword;
-        for (i = 0; i < passwordRegister1Value.length; i++) {
-            ch = passwordRegister1Value.charCodeAt(i);
-            hashPassword = ((hashPassword << 5) - hashPassword) + ch;
-            hashPassword = hashPassword & hashPassword;
-        }
-    }
-    
-    
-}
 
 
