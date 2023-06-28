@@ -1,4 +1,4 @@
-function register() {
+function registrar() {
 
     let passwordRegister1Value = document.getElementById("password-register1").value
     let passwordRegister2Value = document.getElementById("password-register2").value
