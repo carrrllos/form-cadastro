@@ -12,7 +12,8 @@ function register() {
 
     else {
         var hashPassword = 0;
-        // if the length of the string is 0, return 0
+
+        
         if (passwordRegister1Value.length == 0) return hashPassword;
         for (i = 0; i < passwordRegister1Value.length; i++) {
             ch = passwordRegister1Value.charCodeAt(i);
