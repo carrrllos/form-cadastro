@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 }
 
 
-main{
+main {
     background-color: #6dc152;
     height: 100vh;
     width: 100vw;
@@ -17,7 +17,7 @@ main{
     align-items: center;
 }
 
-.login-section{
+.login-section {
     height: 50vh;
     width: 25vw;
     background-color: #fff;
@@ -27,23 +27,25 @@ main{
     padding: 50px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.53);
     border-radius: 10px;
-    
-    
+
 }
-input{
+
+input {
     outline: 0;
     background-color: #f2f2f2;
     border: 0;
     padding: 15px;
     margin-bottom: 20px;
     width: 100%;
-    
+
 }
-input:focus{
+
+input:focus {
     border: #00b241 1px solid;
-    
+
 }
-.btn-register{
+
+.btn-register {
     background-color: #00b241;
     color: #fff;
     border: 0;
@@ -54,7 +56,8 @@ input:focus{
     margin-bottom: 20px;
     border-radius: 10px;
 }
-.btn-login{
+
+.btn-login {
     background-color: #00b241;
     color: #fff;
     border: 0;
@@ -67,16 +70,17 @@ input:focus{
 }
 
 
-a{
+a {
     text-decoration: none;
     color: #4CAF50;
 }
 
-p{
+p {
     font-size: 13px;
     color: #b3b3b3;
 }
-.register-section{
+
+.register-section {
     height: 60vh;
     width: 25vw;
     background-color: #fff;
@@ -86,59 +90,111 @@ p{
     padding: 50px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.53);
     border-radius: 10px;
-    
+
 }
 
-.senha{
+.senha {
     position: relative;
 }
-.img-senha1{
+
+.img-senha1 {
     position: absolute;
     top: 15px;
     right: 10px;
     cursor: pointer;
 }
-.img-senha2{
+
+.img-senha2 {
     position: absolute;
     top: 85px;
     right: 10px;
     cursor: pointer;
 }
 
-.img-login{
+.img-login {
     position: absolute;
     top: 15px;
     right: 10px;
     cursor: pointer;
 }
 
+.logout-section {
+    height: 30vh;
+    width: 25vw;
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.53);
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.btn-logout {
+    background-color: #00b241;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.btn-logout a{
+    color: #fff;
+}
+
+@media screen and (max-width:1200px) {
+
+    .logout-section {
+        width: 30vw;
+    }
+
+}
+
 @media screen and (max-width:1100px) {
-    
-    .login-section{
+
+    .login-section {
         width: 35vw;
     }
-    .register-section{
+
+    .register-section {
         width: 35vw;
     }
+
+    .logout-section {
+        width: 35vw;
+    }
+
 }
 
 @media screen and (max-width:1000px) {
-    
-    .login-section{
+
+    .login-section {
         width: 45vw;
     }
-    .register-section{
+
+    .register-section {
         width: 45vw;
     }
+    .logout-section {
+        width: 40vw;
+    }
+
+
 }
 
 @media screen and (max-width:900px) {
-    
-    .login-section{
-        width: 50vw;
-    }    
-    .register-section{
-        width: 50vw;
-    }    
-}    
 
+    .login-section {
+        width: 50vw;
+    }
+
+    .register-section {
+        width: 50vw;
+    }
+    .logout-section {
+        width: 45vw;
+    }
+}

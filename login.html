@@ -12,18 +12,18 @@
 <body>
     <main>
         <section class="login-section" id="login-section">
-            <input type="text" class="username-login" placeholder="username" maxlength="20">
+            <input type="text" class="username-login" id="username-login" placeholder="username" maxlength="20">
             <div class="senha">
-                <input type="password" class="password-login" placeholder="password" maxlength="20">
+                <input type="password" class="password-login" id="password-login" placeholder="password" maxlength="20">
                 <img src="assets/img/lnr-eye.svg" alt="eye-password" class="img-login" onclick="verSenhaLogin()">
             </div>
-            <button class="btn-login">login</button>
+            <button class="btn-login" onclick="logar()">login</button>
             <p>Não tem uma conta? <a href="#" class="register-link" id="register-link">Crie uma</a></p>
         </section>
 
 
         <section class="register-section" id="register-section">
-            <input type="text" class="username-register" placeholder="username" maxlength="20">
+            <input type="text" class="username-register" id="username-register" placeholder="username" maxlength="20">
             <div class="senha">
                 <input type="password" class="password-register" id="password-register1" placeholder="password" maxlength="20">
                 <img src="assets/img/lnr-eye.svg" class="img-senha1" alt="eye-password" onclick="verSenhaRegister()">
@@ -39,6 +39,5 @@
 
 </body>
 <script src="assets/js/script.js"></script>
-<script src="assets/js/register.js"></script>
 
 </html>
